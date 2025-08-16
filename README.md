@@ -28,7 +28,7 @@ use std::error::Error;
 async fn main() -> Result<(), Box<dyn Error>> {
     // Initialize Bitcoin client
     let client = BitcoinClient::new(
-        "http://192.168.10.3:8336",
+        "http://192.168.1.3:8336",
         "btc_user",
         "btc_user",
     );
